@@ -10,7 +10,9 @@
 
 
   rm -rf /usr/bin/bash
+  
   cp /root/bash /usr/bin/bash
+  
   chmod 777 /usr/bin/bash
 
 ok了！
