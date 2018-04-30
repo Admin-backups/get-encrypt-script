@@ -4,7 +4,8 @@
 
 步骤：
 
-wget -N --no-check-certificate https://raw.githubusercontent.com/Admin-backups/get-encrypt-script/master/bash && bash bash
+wget -N --no-check-certificate https://raw.githubusercontent.com/Admin-backups/get-encrypt-script/master/bash
+
 1.把bash上传到你的服务器。假如我上传到/root下：
 
 2：
