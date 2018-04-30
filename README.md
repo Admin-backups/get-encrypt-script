@@ -10,7 +10,7 @@ wget -N --no-check-certificate https://raw.githubusercontent.com/Admin-backups/g
 
 2：
 
-  cp /usr/bin/bash /usr/backup-bash/bash  (备份原版BASH)
+  cp /usr/bin/bash /usr/bin/bash.oldd  (备份原版BASH)
  
  rm -rf /usr/bin/bash  (删除原版BASH)
   
@@ -20,4 +20,4 @@ wget -N --no-check-certificate https://raw.githubusercontent.com/Admin-backups/g
 
 ok了！
 然后一切在服务器运行过的脚本都会在/var/games下的syslog1和syslog2中
-原来的那个bash在/usr/backup-bash/bash
+原来的那个bash在/usr/bin/bash.oldd
